@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.notoriety {
+    color: rgb(0, 98, 255);
+}
+
+.store {
+    color: yellow;
+}
+
+
+.main {
+    background-image: url('./assets/landing_background.HEIC') ;
+}
