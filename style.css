@@ -10,7 +10,15 @@ h1 {
     color: yellow;
 }
 
-
-.main {
-    background-image: url('./assets/landing_background.HEIC') ;
+html {
+    height: 100%;
 }
+body {
+    background-image: url('assets/landing_background.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+
