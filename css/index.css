@@ -5,12 +5,7 @@
     padding: 0;
 }
 
-h1 {
-    text-align: center;
-
-}
-
-.notoriety {
+.notoriety /*This is a comment*/{
     background-color: rgba(0, 98, 255, 0.5);
 }
 
@@ -22,6 +17,8 @@ html {
     height: 100%;
     
 }
+
+
 
 nav h1{
     color: black;
@@ -46,3 +43,8 @@ body {
     background-size: cover;
 }
 
+section {
+    text-align: left;
+    color: white;
+    position:absolute;
+}
