@@ -1,3 +1,5 @@
+/*UNIVERSAL SELECTOR -- START*/
+/**/
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -5,7 +7,56 @@
     padding: 0;
 }
 
-.notoriety /*This is a comment*/{
+/**/
+/*UNIVERSAL SELECTOR -- END*/
+
+
+
+/*TYPE SELECTORS -- START*/
+/**/
+html {
+    
+} 
+
+main {}
+
+body {}
+
+p {
+    z-index: 2;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    
+}
+
+figcaption {
+    color: white;
+}
+/**/
+/*TYPE SELECTORS -- END*/
+
+
+
+/*CLASS SELECTORS -- START*/
+/**/
+.background {
+    height: 100%;
+    background-image: url('/css/resources/landing_background.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.notoriety {
     background-color: rgba(0, 98, 255, 0.5);
 }
 
@@ -13,10 +64,22 @@
     background-color: rgba(255,255,0, 0.5);
 }
 
-html {
-    height: 100%;
-    
+.sweatshirt1 {
+    border: 3px solid red;
+    text-align: center;
+    position: ;
 }
+
+/**/
+/*CLASS SELECTORS -- END*/
+
+
+/*ID SELECTORS -- START*/
+/**/
+
+/**/
+/*ID SELECTORS -- END*/
+
 
 
 
@@ -32,19 +95,4 @@ nav h1{
     margin: 0 auto;
     padding: 15px
     
-}
-
-body {
-    background-image: url('/css/resources/landing_background.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: cover;
-    background-size: cover;
-}
-
-section {
-    text-align: left;
-    color: white;
-    position:absolute;
 }
