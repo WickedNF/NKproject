@@ -14,13 +14,11 @@
 
 /*TYPE SELECTORS -- START*/
 /**/
-html {
-    
-} 
+/* html {} 
 
 main {}
 
-body {}
+body {} */
 
 p {
     z-index: 2;
@@ -67,7 +65,7 @@ figcaption {
 .sweatshirt1 {
     border: 3px solid red;
     text-align: center;
-    position: ;
+    padding-top: ;
 }
 
 /**/
@@ -76,6 +74,7 @@ figcaption {
 
 /*ID SELECTORS -- START*/
 /**/
+#sweatshirt2
 
 /**/
 /*ID SELECTORS -- END*/
